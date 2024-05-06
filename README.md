@@ -4,6 +4,8 @@
 -COP 4600 w/ Professor Segundo
 -RAID Project 3
 
+Link to Extra Credit: https://github.com/GravityGravity/RAID-failcheck.git
+
 DESC:
 
   ### RAID mapping
