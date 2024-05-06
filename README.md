@@ -29,6 +29,7 @@ Restrictions in the test cases (test cases always follow the restrictions):
 Input format
 
 The first line of input has 5 items in this order: T, N, C, S, and Q. Follow Q lines, each with the queried sector number.
+
 Output format
 
 For each query, print one line in the output. Each line has two or three numbers. The first number is the hard disk number ([0,N-1]) that contains the queried sector. If more than one disk has a copy of the queried sector, print the one with the smaller number (for RAID levels 1, 01, and 10). The second number is the stripe ([0,S-1]) that contains the queried sector. The third number is the hard disk number ([0,N-1]) that contains the second copy of the queried sector for RAID levels 1, 01, and 10, or the hard disk number ([0,N-1]) that contains the parity affected by the queried sector for RAID levels 4 and 5. "
